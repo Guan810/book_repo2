@@ -1,0 +1,27 @@
+{
+    "name":"下书网",
+    "url":"www.xiashuwu.com",
+    "version":100,
+    "search":{
+        "url":"https://www.xiashuwu.com/search.html?searchkey=￥{key}&searchtype=all",
+        "charset":"utf-8",
+        "list":"#waterfall > div.item",
+        "name":"h3",
+        "author":"div.pic > div",
+        "cover":"img",
+        "summary":".intro",
+        "detail":"h3 > a"
+    },
+    "detail":{
+
+    },
+    "catalog":{
+        "list":"#morezj > li",
+        "orderBy":0,
+        "name":"a",
+        "chapter":"a"
+    },
+    "chapter":{
+        "content":"#chaptercontent"
+    }
+}
